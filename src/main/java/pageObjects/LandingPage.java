@@ -32,12 +32,6 @@ public class LandingPage {
 		return driver.findElement(title);
 	}
 
-	public WebElement getTitle2() {
-		return driver.findElement(title);
-	}
 
-	public WebElement getTitle3() {
-		return driver.findElement(title);
-	}
 
 }

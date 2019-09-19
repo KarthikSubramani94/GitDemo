@@ -31,11 +31,6 @@ public class LoginPage {
 	public WebElement getLogin() {
 		return driver.findElement(login);
 	}
-	public WebElement getLogin1() {
-		return driver.findElement(login);
-	}
-	public WebElement getLogin2() {
-		return driver.findElement(login);
-	}
+	
 
 }
