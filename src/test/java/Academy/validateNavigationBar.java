@@ -55,7 +55,7 @@ public class validateNavigationBar extends base {
 
 		driver.close();
 		driver = null;
-
+		System.out.println("driver became null");
 	}
 
 }

@@ -49,7 +49,7 @@ public class validateTitle extends base {
 
 		driver.close();
 		driver = null;
-
+		System.out.println("driver became null");
 	}
 
 }

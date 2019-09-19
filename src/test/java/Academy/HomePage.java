@@ -2,7 +2,6 @@ package Academy;
 
 import java.io.IOException;
 
-
 import org.apache.logging.log4j.*;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -49,7 +48,7 @@ public class HomePage extends base {
 
 		driver.close();
 		driver = null;
-
+		System.out.println("driver became null");
 	}
 
 	@DataProvider
